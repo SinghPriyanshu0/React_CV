@@ -26,9 +26,11 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <Box sx={{ 
-      py: 12, 
-      background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)',
+    <Box 
+      id="skills"
+      sx={{ 
+        py: 12, 
+        background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)',
       position: 'relative',
       '&::before': {
         content: '""',
