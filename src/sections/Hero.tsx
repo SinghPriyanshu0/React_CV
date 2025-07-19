@@ -16,7 +16,7 @@ const Hero = () => {
       id="hero"
       sx={{ 
         py: { xs: 6, sm: 8, md: 10, lg: 12 }, 
-        mt: 0,
+        mt: [1.2,0],
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%)',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
